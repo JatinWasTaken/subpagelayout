@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="/Open_Sans/OpenSans-Bold.ttf"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Cinzel&display=swap" rel="stylesheet">
+  <!-- do download the fonts mentioned below so you can use them with the help of css font-face property -->
+  
+
+  <link rel="stylesheet" href="navbar-scroll-firstdiv.css">
+  <style>
+
+    @font-face {
+      font-family: "Open Sans-B";
+      src: url(Open_Sans/OpenSans-Bold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: "Open Sans-R";
+      src: url(Open_Sans/OpenSans-Regular.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: "Play fair-B";
+      src: url(static/PlayfairDisplay-Bold.ttf) format('truetype');
+    }
+
+    body{
+      position: relative;
+    }
+    .sub-page-first-div {
+      height: 800px;
+      width: auto;
+      /* background-image: url(dry-lab-01.svg); */
+      /* background-position: center; */
+      /* background-repeat: no-repeat; */
+      /* background-size: auto 720px; */
+      position: relative;
+      background-color: #f05545;
+      /* margin-top: 1%; */
+    }
+
+    .sub-page-first-div h1 {
+      position: absolute;
+      font-size: 5vw;
+      width: auto;
+      height: auto;
+      font-family: "Play fair-B", sans-serif;
+      /* font-weight: bold; */
+      margin: 620px auto auto 0;
+    }
+
+    .dry-lab-second-div {
+      background-image: linear-gradient(#ffb8b0, #ffa297);
+
+    }
+
+    .dry-lab-second-div .content h1 {
+      text-align: left;
+      padding-top: 8%;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .dry-lab-second-div .content p {
+      font-size: 2rem;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-family: "Open Sans-R";
+    }
+
+
+
+    .sidenav {
+      height: auto;
+      width: auto;
+      margin-top: 37.678%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 10%;
+    }
+
+
+
+    .sidenav a {
+      padding-left: 0;
+      text-align: center;
+      color: #000000;
+      font-size: 1.1rem;
+      font-family: "Open Sans-R";
+    }
+
+    .sidenav a:hover {
+      color: #ffffff;
+      background-color: #cc3333;
+      border-radius: 20px;
+    }
+
+
+
+    @media (max-width: 900px) {
+      .sidenav {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+
+      .sub-page-first-div h1 {
+        font-size: 9vw;
+        margin: 380px auto auto;
+      }
+
+      .sub-page-first-div {
+        background-size: 480px 400px;
+        height: 500px
+      }
+    }
+  </style>
+  <title>DRY LAB</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <a href="sub-pages-layout.html"><img class="logo" src="logo red.png" alt=""></a>
+
+
+
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-opacity" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Project</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <!-- <a class="dropdown-item" href="Inspiration.html">Inspiration</a> -->
+                <a class="dropdown-item" href="Description.html">Description</a>
+                <a class="dropdown-item" href="Design.html">Design</a>
+                <a class="dropdown-item" href="Experiments.html">Experiments</a>
+                <a class="dropdown-item" href="Contributions.html">Contribution</a>
+                <a class="dropdown-item" href="Notebook.html">Notebook</a>
+                <a class="dropdown-item" href="Safety.html">Safety</a>
+                <a class="dropdown-item" href="Results.html">Results</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Team</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Team.html">Members</a>
+                <a class="dropdown-item" href="Collaborations.html">Collaborations</a>
+                <a class="dropdown-item" href="Attributions.html">Attributions</a>
+
+              </div>
+
+            </li>
+            <!-- <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Wet lab</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <a class="dropdown-item" href="Protocol.html">Protocols</a>
+
+                <a class="dropdown-item" href="Parts.html">Parts</a>
+
+
+              </div>
+            </li> -->
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Dry lab</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Dry-Lab.html">Overview</a>
+                <a class="dropdown-item" href="Dry-Lab.html">Models</a>
+                <a class="dropdown-item" href="Dry-Lab.html">Models(NGL)</a>
+                <a class="dropdown-item" href="Results.html">Results</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Diagnostics</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Gold criteria.html">Motivation</a>
+                <a class="dropdown-item" href="Silver criteria.html">DeleMa_detect</a>
+                <a class="dropdown-item" href="Bronze criteria.html">Future Implementation</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown">Human practices</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="human_practices.html">Integrated human practice</a>
+                <a class="dropdown-item" href="Outreach.html">Public engagement</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-2">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role=button data-toggle="dropdown" href="#">Parts</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Parts overview.html">Parts overview</a>
+                <a class="dropdown-item" href="Basic parts.html">Basic parts</a>
+                <a class="dropdown-item" href="Basic parts.html">Composite parts</a>
+                <a class="dropdown-item" href="Basic parts.html">Contribution and Improvements</a>
+
+
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+    <!-- <h2>Scroll Indicator</h2> -->
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid sub-page-first-div">
+
+    <h1>DRY LAB</h1>
+
+
+  </div>
+  <div class="dry-lab-second-div container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+        <div class="sidenav">
+          <!-- <hr> -->
+          <nav>
+            <ul>
+              <li class="nav-item"><a class="nav-link" href="#1">Tnspirationiiiihhh</a></li>
+              <li class="nav-item"><a class="nav-link" href="#2">Intro</a></li>
+              <li class="nav-item"><a class="nav-link" href="#3">Intro</a></li>
+              <li class="nav-item"><a class="nav-link" href="#4">Intro</a></li>
+              <li class="nav-item"><a class="nav-link" href="#5">Models</a></li>
+              <li class="nav-item"><a class="nav-link" href="#6">Intro</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Intro</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Intro</a></li>
+
+            </ul>
+
+
+
+
+
+
+
+
+
+          </nav>
+
+          <!-- <hr> -->
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+      <div class="col-lg-9 col-md-9">
+        <div class="content">
+          <h1 id="1">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+          <h1 id="2">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+          <h1 id="3">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla,
+            vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+          <h1 id="4">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+          <h1 id="5">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+          <h1 id="6">INTRODUCTION</h1>
+          <hr>
+          <p>Lorem ipsum <em>dolor sit</em> amet, <b>consectetur adipiscing elit.</b> Sed quis fermentum risus, a condimentum dolor. Fusce nec ante elit. Sed cursus tincidunt nulla, vulputate scelerisque ipsum. Integer aliquam semper dictum. Fusce
+            feugiat, mi vel ultricies pulvinar, tellus turpis bibendum purus, eget tincidunt magna risus a eros. Nunc justo ligula, vulputate vel euismod quis, sollicitudin ac risus. Vivamus a aliquam tellus. Etiam sit amet orci sit amet sapien
+            accumsan condimentum at ac augue. Sed id condimentum orci. Aliquam rutrum iaculis lectus, sit amet cursus nisi. Sed feugiat a dui mattis sodales. In aliquam pharetra turpis, eu vulputate lorem consequat a. Aliquam varius massa nisi, at
+            tristique lorem facilisis at. Curabitur placerat commodo tempus.</p>
+          <br>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+</body>
+
+</html>
